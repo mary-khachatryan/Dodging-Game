@@ -27,7 +27,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     void StartSpawning() 
     {
-        InvokeRepeating("Spawn", 1f, spawnRate);
+        InvokeRepeating("Spawn", 0.5f, spawnRate);
 
     }
     public void StopSpawning()
